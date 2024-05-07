@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #fafafa;
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -39,6 +39,12 @@ body{
 .magic:active{
     box-shadow: none;
     transform: translateY(2px);
+}
+
+
+.boxes.big{
+    width: 600px;
+    height: 600px;
 }
 
 .boxes {
